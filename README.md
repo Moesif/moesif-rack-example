@@ -44,4 +44,4 @@ moesif_options = {
 rackup
 ```
 
-5. See config.ru for some urls that you can hit the server with (e.g. http://localhost:9292/), and the data should be captured in the corresponding Moesif account of the application id.
+5. See `config.ru` for some urls that you can hit the server with (e.g. http://localhost:9292/), and the data should be captured in the corresponding Moesif account of the application id.
