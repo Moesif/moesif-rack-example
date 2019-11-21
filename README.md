@@ -13,7 +13,7 @@ This example is a Rack application with Moesif Rack integrated.
 
 [moesif-rack's documentation](https://www.moesif.com/docs/server-integration/rack/) has detailed installation instructions and configuration options. Key changes to the base example to enable Moesif:
 
-- Add `gem 'moesif_rack', '~> 1.3.7'` to the Gemfile
+- Add `gem 'moesif_rack', '~> 1.3.8'` to the Gemfile
 - Modify the `config/application.rb` to use your Moesif Application Id.
 
 Your Moesif Application Id can be found in the [_Moesif Portal_](https://www.moesif.com/).
@@ -44,4 +44,4 @@ moesif_options = {
 rackup
 ```
 
-5. See config.ru for some urls that you can hit the server with (e.g. http://localhost:9292/), and the data should be captured in the corresponding Moesif account of the application id.
+5. See `config.ru` for some urls that you can hit the server with (e.g. http://localhost:9292/), and the data should be captured in the corresponding Moesif account of the application id.
