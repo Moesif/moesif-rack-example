@@ -3,4 +3,4 @@
 source "https://rubygems.org"
 
 gem 'rack'
-gem 'moesif_rack', '~> 1.4.0'
+gem 'moesif_rack', '~> 1.4.2'
