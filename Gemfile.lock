@@ -8,7 +8,7 @@ GEM
     http-accept (1.7.0)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
-    json (2.3.0)
+    json (2.3.1)
     json_mapper (0.2.1)
       json (>= 1.4.3)
     mime-types (3.3.1)
@@ -18,9 +18,8 @@ GEM
       json_mapper (~> 0.2.1)
       moesif_unirest (~> 1.1.5)
       test-unit (~> 3.1.5)
-    moesif_rack (1.4.2)
-      moesif_api (~> 1.2.12)
-      test-unit (~> 3.1.5)
+    moesif_rack (1.4.6)
+      moesif_api (~> 1.2, >= 1.2.12)
     moesif_unirest (1.1.5)
       addressable (>= 2.3.5)
       json (>= 1.8.1)
@@ -28,7 +27,7 @@ GEM
     netrc (0.11.0)
     power_assert (1.2.0)
     public_suffix (4.0.5)
-    rack (2.0.8)
+    rack (2.2.3)
     rest-client (2.1.0)
       http-accept (>= 1.7.0, < 2.0)
       http-cookie (>= 1.0.2, < 2.0)
@@ -44,7 +43,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  moesif_rack (~> 1.4.2)
+  moesif_rack (~> 1.4.6)
   rack
 
 BUNDLED WITH
