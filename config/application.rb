@@ -28,6 +28,16 @@ module MoesifOptions
         'foo' => '123'
         }
     }
+
+    @moesif_options['skip'] = Proc.new{|env, headers, body|
+        # Add your custom code that returns true to skip logging the API call
+        if env.key?("REQUEST_URI") 
+            # Skip probes to health page
+            env["REQUEST_URI"].include? "/health"
+        else
+            false
+        end
+    }
     
     @moesif_options['get_metadata_outgoing'] = Proc.new{|request, response|
         {
