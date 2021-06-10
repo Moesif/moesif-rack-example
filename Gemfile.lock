@@ -19,7 +19,7 @@ GEM
       json_mapper (~> 0.2.1)
       moesif_unirest (~> 1.1.5)
       test-unit (~> 3.1.5)
-    moesif_rack (1.4.8)
+    moesif_rack (1.4.10)
       moesif_api (~> 1.2, >= 1.2.12)
     moesif_unirest (1.1.5)
       addressable (>= 2.3.5)
@@ -44,10 +44,11 @@ GEM
 PLATFORMS
   java
   ruby
+  universal-java-1.8
 
 DEPENDENCIES
-  moesif_rack (~> 1.4.8)
+  moesif_rack (~> 1.4.10)
   rack
 
 BUNDLED WITH
-   2.1.4
+   2.2.4
