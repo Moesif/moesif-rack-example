@@ -18,7 +18,7 @@ GEM
     moesif_api (1.2.14)
       json_mapper (~> 0.2, >= 0.2.1)
       moesif_unirest (~> 1.1.6)
-    moesif_rack (1.4.14)
+    moesif_rack (1.4.16)
       moesif_api (~> 1.2.14)
     moesif_unirest (1.1.6)
       addressable (~> 2.8, >= 2.8.0)
@@ -51,7 +51,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  moesif_rack (~> 1.4.14)
+  moesif_rack (~> 1.4.16)
   puma
   rack
 

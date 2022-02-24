@@ -31,7 +31,7 @@ module MoesifOptions
 
     @moesif_options['skip'] = Proc.new{|env, headers, body|
         # Add your custom code that returns true to skip logging the API call
-        if env.key?("REQUEST_URI") 
+        if env.key?("REQUEST_URI")
             # Skip probes to health page
             env["REQUEST_URI"].include? "/health"
         else
