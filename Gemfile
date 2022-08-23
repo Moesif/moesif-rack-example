@@ -3,5 +3,5 @@
 source "https://rubygems.org"
 
 gem 'rack'
-gem 'moesif_rack', '~> 1.4.16'
+gem 'moesif_rack', '~> 1.4.17'
 gem 'puma'
